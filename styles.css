@@ -15,7 +15,10 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-a {
+a,
+a:hover,
+a:visited,
+a:active {
   text-decoration: none;
 }
 
@@ -522,6 +525,14 @@ header {
   filter: invert(1);
 }
 
+.social_media li {
+  list-style: none;
+}
+
+.info a {
+  color: white;
+}
+
 .contact_form {
   padding: 70px 50px;
   background: #fff;
@@ -614,7 +625,7 @@ footer {
 }
 
 .footer_description {
-  color: #78716c;
+  color: #007bff;
   font-size: 16px;
 }
 

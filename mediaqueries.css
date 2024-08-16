@@ -1,4 +1,4 @@
-@media (max-width: 426px) {
+@media (max-width: 576px) {
   .container {
     max-width: 90%;
     padding: 40px 16px;
@@ -45,16 +45,30 @@
   }
 
   .formbox {
-    display: grid;
+    display: flex;
   }
 
-  .formbox input {
-    width: 200%;
+  .contact_form {
+    padding: 50px 30px;
+  }
+
+  .formbox h2 {
+    font-size: 16px;
+  }
+
+  .formbox .inputBox1.w50 {
+    width: 100%;
   }
 
   .contact_info {
     padding: 25px;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social_media {
+    width: 100%;
   }
 
   .info li {
@@ -70,5 +84,43 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (min-width: 576px) and (max-width: 1023px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_image {
+    text-align: center;
+  }
+  .services_section {
+    grid-template-columns: 1fr;
+  }
+  .image {
+    text-align: center;
+  }
+  .room_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .img_container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .container_div {
+    flex-direction: column;
+  }
+  .footer_container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  nav {
+    gap: 150px;
+  }
 }

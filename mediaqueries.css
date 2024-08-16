@@ -1,0 +1,74 @@
+@media (max-width: 426px) {
+  .container {
+    max-width: 90%;
+    padding: 40px 16px;
+  }
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_image img {
+    width: 250px;
+    height: auto;
+  }
+
+  .about_content {
+    gap: 10px;
+  }
+
+  .services_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image img {
+    width: 250px;
+  }
+
+  .banner_card {
+    text-align: center;
+  }
+
+  .room_grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container_div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formbox {
+    display: grid;
+  }
+
+  .formbox input {
+    width: 200%;
+  }
+
+  .contact_info {
+    padding: 25px;
+    flex-direction: column;
+  }
+
+  .info li {
+    align-items: flex-start;
+  }
+
+  .info li span:nth-child(2) {
+    word-break: break-all;
+  }
+
+  .footer_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 426px) {
+}
